@@ -50,7 +50,7 @@ void loop() {
    if(digitalRead(startSensorPin)==HIGH) touchSensor(startSensorPin);
    if(digitalRead(moveRightSensorPin)== LOW) moveRight();
    if(digitalRead(moveLeftSensorPin)==LOW)   moveLeft();
-   lightRgb(redPin);
+   lightRgb(greenPin);
    
    
 }
